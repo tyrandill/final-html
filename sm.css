@@ -60,15 +60,10 @@ section,
   max-width: 100%;
 }
 
-.radio-group {
-  flex-direction: column;
-}
-
-.radio-group label {
-  width: 100%;
-  min-width: 100%;
-}
-
 .form-button {
   width: 100%;
+}
+
+.form-grid {
+  grid-template-columns: 1fr;
 }
