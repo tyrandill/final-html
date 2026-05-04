@@ -191,8 +191,8 @@
         <section class="teklif-formu">
           <h2>Teklif Formu</h2>
           <p>
-            Yük talebinizi iletin veya taşıma kapasitenizi paylaşın. Ekibimiz en
-            kısa sürede sizinle iletişime geçecektir.
+            Taşınacak yük hakkında ya da taşıma kapasiteniz hakkında bilgi
+            paylaşmanız halinde ekibimiz sizinle iletişime geçecektir.
           </p>
 
           <form
@@ -201,6 +201,12 @@
             method="POST"
             data-netlify="true"
           >
+            <div class="hidden">
+              <label>
+                Don’t fill this out if you’re human:
+                <input name="bot-field" type="text" />
+              </label>
+            </div>
             <div class="form-grid">
               <div class="form-group">
                 <label for="ad">Ad</label>

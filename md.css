@@ -37,7 +37,3 @@
 .form-grid {
   grid-template-columns: 1fr;
 }
-
-.radio-group label {
-  min-width: 220px;
-}

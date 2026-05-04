@@ -321,3 +321,7 @@ footer {
 .form-button:hover {
   background-color: var(--gray);
 }
+
+.hidden {
+  display: none;
+}
