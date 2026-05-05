@@ -296,10 +296,6 @@ footer {
   min-height: 140px;
 }
 
-.form-choice {
-  width: 100%;
-}
-
 .form-button {
   display: inline-flex;
   align-items: center;
